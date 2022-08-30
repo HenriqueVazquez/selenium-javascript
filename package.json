@@ -1,0 +1,17 @@
+{
+  "name": "seleniumdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --no-timeouts --parallel --max-parallel --reporter mochawesome  --require mochawesome/register --reporter-options  reportDir=C:/qaninja/seleniumDemo/testReports,reportFilename=testeResults"
+  },
+  "author": "Henrique Vazquez",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^10.0.0",
+    "mochawesome": "^7.1.3",
+    "selenium-webdriver": "^4.0.0-beta.3"
+  }
+}
